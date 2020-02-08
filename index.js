@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 4000;
-const db = require("./db");
+// const db = require("./db");
 
 app.get("/", (request, response) => {
   console.log("Message from .get at 4000/");
